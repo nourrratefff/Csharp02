@@ -6,8 +6,12 @@ namespace C_Basics_02.Answers
     {
         static void Main(string[] args)
         {
+            //Question 1:
             object book = new Book();
             Console.WriteLine(book);
+
+
+            //Quetion 2:
 
             string toString = book.ToString();
 
@@ -26,7 +30,9 @@ namespace C_Basics_02.Answers
             Console.WriteLine(type);
 
 
+            //Question 3:
 
+            //Compile-time error. 
             
 
 
@@ -35,6 +41,7 @@ namespace C_Basics_02.Answers
 
     }
 
+    // Question 1: 
 
     class Book
     {
