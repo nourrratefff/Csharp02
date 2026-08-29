@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Linq.Expressions;
+using System.Runtime.InteropServices;
 
 namespace C_Basics_02.Answers
 {
@@ -11,7 +12,7 @@ namespace C_Basics_02.Answers
             Console.WriteLine(book);
 
 
-            //Quetion 2:
+            //Question 2:
 
             string toString = book.ToString();
 
@@ -33,7 +34,23 @@ namespace C_Basics_02.Answers
             //Question 3:
 
             //Compile-time error. 
-            
+
+
+            //Question 4(Topic Hasnt been covered yet):
+            try
+            {
+                int divisor = 0;
+                int result = 10 / divisor;
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("Error: Cannot Divide By Zero.");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
 
 
 
@@ -50,4 +67,18 @@ namespace C_Basics_02.Answers
     }
 
 
+ 
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
