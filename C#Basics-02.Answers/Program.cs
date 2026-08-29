@@ -52,6 +52,13 @@ namespace C_Basics_02.Answers
             }
 
 
+            //Question 5:
+
+            int pages = 300;
+
+            double pagesdouble = pages;
+
+
 
 
         }
